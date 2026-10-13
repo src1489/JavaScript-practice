@@ -1,66 +1,29 @@
-// //single line comment
-// // This code prints Hello World
-// console.log("Hello World");
+//3) Comparison Operators
+//Comparison operators are used to compare two values and return a boolean value (true or false).
 
-// //2. Multi-line comment
-// /*  This code prints Hello World
-//      This is a multi-line comment
-// */
+//1. Equal to (==) - checks if two values are equal, but does not check the data type.
+let a = 5;
+let b = "5";
+console.log(a == b); //true
 
-// //Operators in JavaScript
-// //1. Arithmetic Operators - +, -, *, /, %, ++, -- , ** (Exponentiation)
-// let a = 10;
-// let b = 5;
-// // console.log("a + b", a + b);// 15
-// // console.log("a - b", a - b);// 5
-// // console.log("a * b", a * b);// 50
-// // console.log("a / b", a / b);// 2
-// // console.log("a % b", a % b);// 0
-// // console.log("a++", a++);// 10
-// // console.log("++a", ++a);// 11
-// // console.log("a--", a--);// 10
-// // console.log("--a", --a);// 9
-// // console.log("a ** b", a ** b);// a^b i.e 10^5 -> 100000
-// //post increment
-// console.log("a++", a++);//10
-// console.log(a);//11
+//2. Not equal to (!=) - checks if two values are not equal, but does not check the data type.
+console.log(a != b); //false
 
-// //post decrement
-// console.log("a--", a--);//11
-// console.log(a);//10
+//3. Strict equal to (===) - checks if two values are equal and of the same data type.
+console.log(a === b); //false
 
-// //pre increment
-// console.log("++a", ++a);//11
-// console.log(a);//11 
+//4. Strict not equal to (!==) - checks if two values are not equal or not of the same data type.
+console.log(a !== b); //true
 
-// //pre decrement
-// console.log("--a", --a);//10
-// console.log(a);//10
+//5. Greater than (>) - checks if the first value is greater than the second value.
+console.log(a > b); //false
 
+//6. Less than (<) - checks if the first value is less than the second value.
+console.log(a < b); //false
 
+//7. Greater than or equal to (>=) - checks if the first value is greater than or equal to the second value.
+console.log(a >= b); //false
 
+//8. Less than or equal to (<=) - checks if the first value is less than or equal to the second value.
+console.log(a <= b); //true
 
-//2. Assignment Operators -> =, +=, -=, *=, /=, %=, **=
-let x = 10;
-console.log("x =", x); //10
-
-// x = x + 5;
-// console.log("x =", x); //15
-
-// x += 5;
-// console.log("x =", x); //20
-
-// x -= 5;
-// console.log("x =", x); //15
-
-// x *= 5;
-// console.log("x =", x); //75
-
-// x /= 5;
-// console.log("x =", x); //15
-
-// x %= 5;
-// console.log("x =", x); //0
-
-// x **= 5;
-// console.log("x =", x); //0
