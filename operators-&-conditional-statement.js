@@ -26,4 +26,4 @@ console.log(a >= b); //false
 
 //8. Less than or equal to (<=) - checks if the first value is less than or equal to the second value.
 console.log(a <= b); //true
-
+ //
