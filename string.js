@@ -97,6 +97,6 @@ console.log(str16.slice(3,6)); // Output: 345
 
 let fullName = prompt("Enter the Full Name ");
 
-let username = "@" + fullName + fukkName.length;
+let username = "@" + fullName + fullName.length;
 console.log(username);
 // Output: @Sneha5
